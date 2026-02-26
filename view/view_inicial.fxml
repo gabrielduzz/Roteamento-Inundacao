@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControllerInicial">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/background%20inicial.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoVersao1" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="342.0" onMouseClicked="#setVersao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20versao%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoVersao2" fitHeight="150.0" fitWidth="200.0" layoutX="298.0" layoutY="337.0" onMouseClicked="#setVersao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20versao%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoVersao3" fitHeight="150.0" fitWidth="200.0" layoutX="537.0" layoutY="337.0" onMouseClicked="#setVersao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20versao%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoVersao4" fitHeight="150.0" fitWidth="200.0" layoutX="777.0" layoutY="337.0" onMouseClicked="#setVersao" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20versao%204.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoIniciar" fitHeight="66.0" fitWidth="250.0" layoutX="389.0" layoutY="584.0" onMouseClicked="#iniciar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20iniciar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="botaoFechar" fitHeight="58.0" fitWidth="59.0" layoutX="922.0" layoutY="41.0" onMouseClicked="#fechar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20fechar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="textoTTL" fitHeight="30.0" fitWidth="308.0" layoutX="357.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/texto%20ttl.png" />
+         </image>
+      </ImageView>
+      <Spinner fx:id="spinnerTTL" layoutX="424.0" layoutY="475.0" />
+      <ImageView fx:id="botaoInfo" fitHeight="58.0" fitWidth="59.0" layoutX="923.0" layoutY="106.0" onMouseClicked="#fechar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/botao%20info.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
